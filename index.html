@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>cia.Pet</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">Cia.Pet</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#service" class="nav-item nav-link">Petz</a>
+                <a href="#project" class="nav-item nav-link">Expo</a>
+            </div>
+            <a href="index.html" class="vbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h4 class="text-primary fw-bold m-0">CIA.PET</h4>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#feed" class="nav-item nav-link">Feed</a>
+                <a href="#team" class="nav-item nav-link">Loja</a>
+                <a href="#contact" class="nav-item nav-link">Contato</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">Comunidade</h3>
+                    <h1 class="display-3 mb-3">Cia.Pet</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">Bem-vindo à Cia.Pet!, O lugar onde seu pet é estrela.</div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="https://adoters.org.br/" class="btn btn-primary py-3 px-4 me-5">Adote um Pet</a>
+                        <button type="button" class="btn-play" data-bs-toggle="modal"
+                            data-src="https://www.youtube.com/embed/N7TX7mp871M?si=9vfKc-oG8HHxIySP" data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/dog.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+   
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+    <div class="flex-container">
+        <div class="flex-items"></div>
+      <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C82jj8HxPGY/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/C82jj8HxPGY/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver essa foto no Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C82jj8HxPGY/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Uma publicação compartilhada por CIA.PET (@cia.pet.oficial)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+    </div>
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Petz</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="https://www.petz.com.br/parceiro/ciapetoficial">Loja Parceiro Petz</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                  
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <img class="img-fluid" src="data:image/jpeg;base64,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 alt="">
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4><a href="https://www.petz.com.br/parceiro/ciapetoficial">PETZ</a></h4>
+                            <b>Cia.Pet, agora em parceria com a Petz, oferecemos produtos premium, serviços especializados e benefícios exclusivos. Nosso compromisso é garantir o melhor para seu pet, com a qualidade e inovação que você já conhece e confia.</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="b-icon flex-shrink-0 mb-3">
+                            <img class="img-fluid" src="data:image/png;base64,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" alt="">
+                        </div>
+                      
+                    </div>
+                </div>
+                <h1>Cia.Pet</h1>
+                <h4>Sobre</h4>
+                    <b>Criamos uma comunidade para amantes de pets. Aqui, você encontrará dicas, histórias, e um espaço para conectar-se com outros donos de pets. Venha fazer parte da nossa família Cia.Pet e celebre o amor pelos seus bichinhos conosco!</b>
+                    
+                    <h4>Criando Conexões</h4>
+                    <b>Nosso objetivo é criar uma comunidade vibrante que conecta donos de pets, prestadores de serviços e empresas do setor pet. Oferecemos um diretório abrangente de serviços, parcerias comerciais exclusivas, eventos educativos e uma plataforma para especialistas compartilharem seus conhecimentos. Queremos facilitar a interação entre todas as partes interessadas, promovendo um ambiente onde a saúde e o bem-estar dos pets são prioridade. Junte-se a nós para descobrir recursos valiosos, obter conselhos de especialistas e aproveitar ofertas exclusivas.</b>
+                    
+                    <h4>Profisionais do setor</h4>
+                    <b>Olá, profissionais do setor pet! Estamos entusiasmados em convidá-los para se juntarem à Cia.Pet, uma plataforma dedicada a conectar apaixonados pelo mundo pet. Aqui, vocês podem anunciar seus produtos e serviços, alcançando um público que valoriza o cuidado e bem-estar dos seus animais de estimação. Além disso, oferecemos a oportunidade de contribuir com matérias especializadas para o nosso blog, ajudando a orientar e inspirar a nossa comunidade. Juntos, podemos criar um espaço de troca de conhecimento e apoio mútuo. Venha fazer parte da Cia.Pet e ajude a construir um mundo melhor para nossos amigos de quatro patas! Esperamos por você!</b>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Expo</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">Todos</li>
+                        <li class="mx-3" data-filter=".first">Parte 1</li>
+                        <li class="mx-3" data-filter=".second">Parte 2</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/market.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/market.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.instagram.com/cia.pet.oficial"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/market.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/market.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.instagram.com/cia.pet.oficial"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/market.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/market.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.instagram.com/cia.pet.oficial"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/market.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/market.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.instagram.com/cia.pet.oficial"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/market.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/market.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.instagram.com/cia.pet.oficial"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/market.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/market.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.instagram.com/cia.pet.oficial"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <div class="container" id="feed">
+        <b>"Todas as fotos nesta página foram gentilmente cedidas e autorizadas pelos tutores dos pets para uso no site Cia.Pet e no Instagram @cia.pet.oficial."</b>
+        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-6012b7b7-ce81-4b2f-baee-e2651ae7d39b" data-elfsight-app-lazy></div>
+    </div>
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-6 pb-5" id="team">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Loja</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="https://www.petz.com.br/parceiro/ciapetoficial">LOJA PARCEIRA PETZ</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/Petz.png" alt="">
+                        <div class="team-text bg-white rounded-end p-4">
+                            <div>
+                                <h5>Petz</h5>
+                                <span>Loja Parceira Cia.Pet</span>
+                            </div>
+                            <a href="https://www.petz.com.br/parceiro/ciapetoficial"><i class="fa fa-link" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Cia.Pet</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="https://tawk.to/chat/66a02640becc2fed6929927b/1i3gpargd">Contato</a>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <b class="mb-2"></b>
+                    <a class= "fw-bold" href="mailto:cia.pet@yahoo.com">Anuncie Conosco</a>
+                    <hr class="w-100">
+                    <b class="mb-2"></b>
+                    <a class= "fw-bold" href="mailto:cia.pet@yahoo.com">Seja Parceiro:</a>
+                    <hr class="w-100">
+                    <b class="mb-2"></b>
+                    <a class= "fw-bold" href="mailto:cia.pet@yahoo.com">Envie E-mail:</a>
+                    <hr class="w-100">
+                    <b class="mb-2">Contato:</b>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href="https://www.petz.com.br/parceiro/ciapetoficial"><i class="fa fa-globe" aria-hidden="true"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="mailto:cia.pet@yahoo.com"><i class="fa fa-envelope"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.instagram.com/cia.pet.oficial"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://tawk.to/chat/66a02640becc2fed6929927b/1i3gpargd"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <b class="mb-4">Envie-nos mensagem via <a href="mailto:cia.pet@yahoo.com">E-mail,</a> ou acesse nosso <a href="https://tawk.to/chat/66a02640becc2fed6929927b/1i3gpargd">Chat</a></b>
+
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="img/lcp.png" alt="">
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom text-secondary" href="https://www.instagram.com/cia.pet.oficial">Cia.Pet.Oficial</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                     07/2024<a class="border-bottom text-secondary" href="https://www.instagram.com/cia.pet.oficial">Cia.Pet.Oficial</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
